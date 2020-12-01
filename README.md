@@ -6,6 +6,6 @@
 
 
 <h2>#Starting node server</h2><br><br>
-  Run npm install in the Angular/pets directory<br>
-  Execute 'npm start' command<br>
-  Your server will start at "http://localhost:4200"<br>
+  <ul><li>Run npm install in the Angular/pets directory</li>
+  <li>Execute 'npm start' command</li>
+  <li>Your server will start at "http://localhost:4200"</li><br>
