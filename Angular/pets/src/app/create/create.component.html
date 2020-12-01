@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Add Dog</h2>
+<mat-dialog-content>
+   <form [formGroup]="myFormGroup">
+      <mat-form-field>
+         <mat-label>Name</mat-label>
+         <input matInput formControlName="name">
+      </mat-form-field>
+      <mat-form-field>
+         <mat-label>Description</mat-label>
+         <input matInput  formControlName="description">
+      </mat-form-field>
+   </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+   <button mat-raised-button color="accent"
+      (click)="save()">Save</button>
+   <button mat-button type="button" color="primary"
+      matDialogClose>Close</button>
+</mat-dialog-actions>
